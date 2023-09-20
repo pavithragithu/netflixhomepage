@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.box{
+  background-image:linear-gradient(to top ,rgba(10, 10, 10, 0.8),rgba(42, 41, 41, 0.5),rgba(6, 6, 6, 0.9)),url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+  height:100vh;
+  width:100%;
+ /* display: flex; */
 }
+/* .box1.button{
+  align-self: flex-end;
+} */
+.signin{
+  float: right;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 15px;
+  align-items: end;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.selectbtn{
+  background-color: rgb(46, 45, 45);
+  color: aliceblue;
+  width: 200px;
+  height: 30px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.text{
   align-items: center;
+  text-align: center;
+  color: azure;
+  font-size: x-larges;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  margin-top:60px;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.text h1{
+  font-weight:bolder;
+  font-size:4.5vmax;
+  margin:10px;
+  padding:10px ;
+}
+.text h4 h5{
+  font-size:1.5vmax;
+}
+.inputField{
+  align-items: center;
+
+}
+.field{
+  width:350px;
+  height:60px;
+  background-color: rgb(29, 27, 27,0.6);
+  margin:2px;
+  color: blanchedalmond;
+  border-color:2px white;
+  font-size:1.5vmax;
+  font-weight: bold;
+}
+.field2{
+  width: 200px;
+  height:60px ;
+  background-color: red;
+  color: beige;
+  font-weight: bold;
+  margin:2px;
+  font-size:1.5vmax ;
+  border-radius:7px ;
+  border:none;
 }

@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import Home from './Home.js'
 import './App.css';
+import Tv from './Tv.js';
+import Mobile from './mobile.js';
+import Tv2 from './tv2.js';
+import Child from './child.js';
+import Query from './query.js';
+import Footer from './footer.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Home/>
+     <Tv/>
+     <Mobile/>
+     <Tv2/>
+     <Child/>
+     <Query/>
+     <Footer/>
+     </>
   );
 }
 

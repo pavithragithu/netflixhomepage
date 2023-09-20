@@ -1,0 +1,39 @@
+.sec1{
+    background-image:linear-gradient(to top,rgb(18, 18, 18),black);
+}
+.sec2{
+    /* background-color: black; */
+    color: aliceblue;
+    align-items: right;
+    /* margin:10vmax; */
+    /* padding-left: 2vmax; */
+}
+.sec4{
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:60px;
+}
+.sec2 p{
+    font-family: 'Times New Roman', serif;
+    font-size:2vmax ;
+
+     padding: 10px;
+}
+.sec2 h1{
+    font-weight: bolder;
+    font-size:4vmax ;
+    margin-top:30px;
+
+}
+.tvfield{
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow:1px 4px 1px 0.3px rgb(56, 56, 56); 
+}
+sec3{
+    background-color: black;
+}
+@media screen and (max-width:600px){
+    
+}
